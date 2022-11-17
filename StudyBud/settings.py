@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^y^!87d-mv7wvh(u23+krt33@t&6m6a)+2#60!bv^%+&g-od(s'
+SECRET_KEY = 'django-insecure-md3g8-61x1zk%-ike0gw389y44k14**v$dkk=u@l7px5952i@b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'study_buddy.apps.StudyBuddyConfig',
 ]
 
 MIDDLEWARE = [
@@ -55,9 +54,7 @@ ROOT_URLCONF = 'StudyBud.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-
-        ],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
